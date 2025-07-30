@@ -3,7 +3,7 @@
 Karaman Makina, CNC torna ve makine sanayi alanında faaliyet gösteren bir şirkettir. Bu statik web sitesi, şirketin tanıtımı amacıyla HTML, CSS ve JavaScript kullanılarak hazırlanmıştır.
 
 🔗 **Canlı Yayın Adresi**  
-https://umutkaraman.github.io/karamanmakina/  
+https://umuttkaraaman.github.io/karamanmakina/  
 https://www.karamanmakina.net *(Alan adınız)*
 
 ## 📁 Proje Yapısı
