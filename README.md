@@ -19,9 +19,24 @@ https://www.karamanmakina.net *(Alan adınız)*
 - CSS3  
 - JavaScript  
 
-## 🖼️ Ekran Görüntüsü
 
-> *(Buraya bir ekran görüntüsü ekleyebilirsiniz ileride)*
+## 📸 Ekran Görüntüleri
+
+### Ana Sayfa
+![Ana Sayfa](screenshot.png)
+
+### Hakkımızda
+![Hakkımızda](screenshot1.png)
+
+### Faaliyet Alanları
+![Faaliyet](screenshot2.png)
+
+### Kalite
+![Kalite](screenshot3.png)
+
+### İletişim
+![İletişim](screenshot4.png)
+ 
 
 ## 📄 Lisans
 
