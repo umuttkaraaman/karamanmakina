@@ -1,0 +1,220 @@
+body {
+    background-color: #f2f2f2;
+}
+
+/* Genel navbar tasarımı */
+.custom-navbar {
+    background-color: white; /* Arka plan beyaz */
+    padding: 0 0;
+    border-bottom: 3px solid #ddd; /* Hafif bir çizgi */
+}
+
+/* Logo */
+.logo {
+    max-height: 200px;
+}
+
+/* Menü stilleri */
+.navbar-nav .nav-link {
+    color: #003366 !important; /* Mavi renk */
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover efekti */
+.navbar-nav .nav-link:hover {
+    color: white !important;
+    background-color: #003366 !important;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+/* Aktif menü */
+.navbar-nav .nav-link.active {
+    color: white !important;
+    background-color: #003366 !important;
+    border-radius: 5px;
+}
+
+h5 {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.contact-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.contact-container {
+    width: 100%;
+    max-width: 1400px; /* İçeriğin maksimum genişliği */
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.contact-info {
+    background: #003399;
+    color: white;
+    padding: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-form {
+    padding: 50px;
+    flex: 1.5;
+}
+.btn-custom {
+    background: #003399;
+    color: white;
+}
+.btn-custom:hover {
+    background: #002266;
+}
+
+
+.highlight-box {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.highlight-box i {
+    font-size: 2rem;
+    color: #003399;
+    margin-right: 15px;
+}
+
+
+.card-hover-effect {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card-hover-effect:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-hover-effect:hover {
+    background: linear-gradient(135deg, #f9fafc, #e4e9f0);
+}
+
+
+
+.makina-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.makina-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.makina-card img {
+    transition: transform 0.3s ease;
+}
+
+.makina-card:hover img {
+    transform: scale(1.0);
+}
+
+.makina-card .makina-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    color: #003399;
+}
+
+.makina-card .makina-info {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.col-md-6 {
+    margin-top: 15px;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-icerik {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  position: relative;
+}
+
+.modal-icerik h2 {
+  color: #2ecc71;
+}
+
+.kapat {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.kapat:hover {
+  color: #333;
+}
+
+
+
+
+
+/* Mobil uyumlu hale getirme */
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-link {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
+    .navbar-icons {
+        flex-direction: column;
+    }
+}
+
+
